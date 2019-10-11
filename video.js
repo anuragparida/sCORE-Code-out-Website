@@ -52,7 +52,7 @@ $(".overvideo").on("click", function() {
       })
       .off("ended");
     video.volume = 0;
-  }, 72000);
+  }, 61000);
 
   video.volume = 1;
   video.currentTime = 0;

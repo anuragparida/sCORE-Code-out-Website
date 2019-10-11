@@ -45,11 +45,11 @@ div#particles-js {
   height: inherit;
   position: absolute;
   left: 0;
-  background-image: url("images/9-trans.png");
-  -webkit-filter: drop-shadow(5px 5px 7px #555);
-  filter: drop-shadow(5px 5px 7px #555);
-  background-position: left center;
-  background-size: 120%;
+  background-image: url("images/logo.png");
+  -webkit-filter: drop-shadow(3px 3px 5px #c0392b);
+  filter: drop-shadow(3px 3px 5px #c0392b);
+  background-position: right center;
+  background-size: 70%;
   background-repeat: no-repeat;
   z-index: 3;
   animation: wobble 1s 3s;
@@ -140,7 +140,7 @@ div#particles-js {
 }
 .third,
 .third-later {
-  background-color: white;
+  background-color: black;
   height: 50vh;
   color: #0059c1;
   font-size: 2rem;
@@ -166,6 +166,7 @@ div#particles-js {
   position: relative;
   color: white;
   border-radius: 5%;
+  background-color: white;
 }
 .posnum {
   height: inherit;
@@ -178,7 +179,7 @@ div#particles-js {
 }
 .counter {
   font-size: 6rem;
-  color: #0059c1;
+  color: #c0392b;
   /*text-shadow: 2px 2px #fff;*/
   -webkit-text-stroke: 1px #fff;
 }
@@ -224,7 +225,7 @@ div#particles-js {
 }
 .playlogo {
   font-size: 10rem;
-  color: #bbb;
+  color: #c0392b;
 }
 .fourth {
   display: flex;
@@ -233,13 +234,13 @@ div#particles-js {
   height: 90vh;
 }
 .infohead {
-  color: #083275;
+  color: #c0392b;
   font-size: 2rem;
 }
 .tech-info {
   height: 65vh;
   width: 25vw;
-  background-color: white;
+  background-color: black;
   /*box-shadow: 5px 5px 20px #555555;*/
   box-shadow: 2px 2px 10px #555555;
   border-radius: 5%;
@@ -266,7 +267,7 @@ div#particles-js {
 .tech-text {
   text-align: center;
   font-size: 1.4rem;
-  color: #0059c1;
+  color: #f1592a;
   padding: 2vw;
 }
 .mapembed {
@@ -278,7 +279,7 @@ div#particles-js {
 
 .fifth {
   background-color: black;
-  color: #0059c1;
+  color: #f1592a;
   display: flex;
   align-items: center;
   justify-content: center;
