@@ -10,7 +10,7 @@ $(document).ready(function(){
   $(".hiddenright").click(function(){
     console.log("clicked");
     if(tranced) {
-      $(".hiddenleft").css("background-image","url('images/score/normwoman.png')");
+      $(".hiddenleft").css("background-image","url('images/score/girl.png')");
       $(".hiddenright").css("background-image","url('images/score/pixel-back.png')");
       
     }

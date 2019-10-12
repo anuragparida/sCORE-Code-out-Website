@@ -144,7 +144,7 @@ div#particles-js {
   height: 50vh;
   color: #0059c1;
   font-size: 2rem;
-  box-shadow: 5px 5px 20px #555555;
+  box-shadow: 5px 5px 20px #c0392b;
   display: flex;
   align-items: center;
   justify-content: space-around;
@@ -181,7 +181,7 @@ div#particles-js {
 }
 
 .hiddenleft {
-  background-image: url("images/score/normwoman.png");
+  background-image: url("images/score/girl.png");
 }
 
 .hiddenright {
@@ -199,7 +199,7 @@ div#particles-js {
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;
-  box-shadow: 2px 2px 10px #555555;
+  box-shadow: 2px 2px 10px #c0392b;
   transition: all 0.25s;
   position: relative;
   color: white;
@@ -280,7 +280,7 @@ div#particles-js {
   width: 25vw;
   background-color: black;
   /*box-shadow: 5px 5px 20px #555555;*/
-  box-shadow: 2px 2px 10px #555555;
+  box-shadow: 2px 2px 10px #f1592a;
   border-radius: 5%;
   z-index: 3;
   transition: all 0.25s;
@@ -289,7 +289,7 @@ div#particles-js {
   align-items: center;
 }
 .tech-info:hover {
-  box-shadow: 20px 20px 30px #444;
+  box-shadow: 20px 20px 30px #c0392b;
 }
 .tech-img {
   height: 15vw;
@@ -324,5 +324,5 @@ div#particles-js {
   height: 30vh;
   z-index: 3;
   font-size: 2rem;
-  box-shadow: 5px 5px 20px #555555;
+  box-shadow: 5px 5px 20px #c0392b;
 }
