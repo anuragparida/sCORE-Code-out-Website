@@ -150,7 +150,45 @@ div#particles-js {
   justify-content: space-around;
   text-align: center;
   z-index: 1;
+  position: relative;
 }
+.hiddenbutton {
+  position: absolute;
+  right: 0;
+  bottom: 0;
+  height: 50px;
+  width: 50px;
+  cursor: pointer;
+}
+
+.hiddensection {
+  display: none;
+  padding: 5vw 10vw;
+}
+
+.hiddenfeaturecont {
+  margin-top: 5vw;
+  padding: 0 0vw;
+}
+
+.hiddenarea {
+  height: 30vw;
+  width: 30vw;
+  display: inline-block;
+  background-position: center;
+  background-size: contain;
+  background-repeat: no-repeat;
+}
+
+.hiddenleft {
+  background-image: url("images/score/normwoman.png");
+}
+
+.hiddenright {
+  float: right;
+  background-image: url("images/score/pixel-back.png");
+}
+
 .num-bg {
   height: 30vh;
   width: 20vw;
